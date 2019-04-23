@@ -12,4 +12,4 @@ def my_collect(array)
   return new_array
 end
 
-#{|capitals|array[i].split(" ").first}
+#{|capitals|array[i].upcase}
