@@ -4,6 +4,7 @@ def my_collect(array)
   i = 0 
   while i < array.length 
     x = array[i].split(" ").first
+  end 
     yield {|capitals|array[i].upcase} 
     new_array << x 
 
