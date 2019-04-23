@@ -3,7 +3,7 @@ def my_collect(array)
   
   i = 0 
   while i < array.length 
-    x = array[i].upcase
+    x = array[i].
     new_array << x 
 
     i += 1 
